@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36211" started-at="2019-06-18T12:05:13Z" finished-at="2019-06-18T12:05:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36211" started-at="2019-06-18T12:05:13Z" finished-at="2019-06-18T12:05:49Z">
+      <class name="handsOn.PaymentOption">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:handsOn.PaymentOption@66a3ffec]" name="beforeClass" is-config="true" duration-ms="7131" started-at="2019-06-18T17:35:13Z" finished-at="2019-06-18T17:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:handsOn.PaymentOption@66a3ffec]" name="f" duration-ms="12049" started-at="2019-06-18T17:35:21Z" data-provider="payments" finished-at="2019-06-18T17:35:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lalitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Andhra Bank]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass@456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Trans@456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:handsOn.PaymentOption@66a3ffec]" name="f" duration-ms="9100" started-at="2019-06-18T17:35:33Z" data-provider="payments" finished-at="2019-06-18T17:35:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lalitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HDFC Bank]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123457]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass@457]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Trans@457]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:handsOn.PaymentOption@66a3ffec]" name="f" duration-ms="6716" started-at="2019-06-18T17:35:42Z" data-provider="payments" finished-at="2019-06-18T17:35:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lalitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IDBI Bank]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123458]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass@458]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Trans@458]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="FAIL" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:handsOn.PaymentOption@66a3ffec]" name="f" duration-ms="268" started-at="2019-06-18T17:35:49Z" data-provider="payments" finished-at="2019-06-18T17:35:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lalitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[UCO Bank]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123460]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass@460]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Trans@460]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(.,'SignIn')]"}
+  (Session info: chrome=75.0.3770.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'P5-H7L6T72', ip: '10.253.180.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\A06438~1.TRA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56809}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2277450217d4c83818404f15ea6e1b66
+*** Element info: {Using=xpath, value=//a[contains(.,'SignIn')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(.,'SignIn')]"}
+  (Session info: chrome=75.0.3770.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'P5-H7L6T72', ip: '10.253.180.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\A06438~1.TRA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56809}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2277450217d4c83818404f15ea6e1b66
+*** Element info: {Using=xpath, value=//a[contains(.,'SignIn')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+	at handsOn.PaymentOption.f(PaymentOption.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:handsOn.PaymentOption@66a3ffec]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-06-18T17:35:49Z" finished-at="2019-06-18T17:35:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- handsOn.PaymentOption -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
